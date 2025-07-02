@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Privacy Policy – Alumni Mark</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; color: #222; }
+    h1, h2 { color: #1a4d7a; }
+    h1 { font-size: 2em; margin-bottom: 0.5em; }
+    h2 { font-size: 1.2em; margin-top: 2em; }
+    p, ul { line-height: 1.6; }
+    ul { margin-left: 1.5em; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy for Alumni Mark</h1>
+  <p><strong>Effective Date:</strong> 7/2/25</p>
+
+  <h2>Overview</h2>
+  <p>
+    Alumni Mark is a Chrome extension designed to help users manage and track alumni contacts in Salesforce. This privacy policy explains what information the extension collects, how it is used, and your rights regarding your data.
+  </p>
+
+  <h2>Information Collection and Use</h2>
+  <ul>
+    <li>
+      <strong>Local Data Storage:</strong>
+      <ul>
+        <li>All user data—including uploaded CSV files, prospect information, and user progress—is stored locally within your browser using Chrome’s local storage API.</li>
+        <li>No data is transmitted to any external servers or third parties.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Data Types:</strong>
+      <ul>
+        <li>The extension processes the following data solely for its intended functionality:</li>
+        <ul>
+          <li>Prospect information from user-uploaded CSV files (e.g., names, emails, job titles, company information, LinkedIn URLs).</li>
+          <li>User actions and progress (e.g., which prospects have been marked as alumni).</li>
+          <li>Scraped email addresses from Salesforce contact pages, stored only in your local browser session.</li>
+        </ul>
+      </ul>
+    </li>
+    <li>
+      <strong>No External Transmission:</strong>
+      <ul>
+        <li>Alumni Mark does not send, upload, or share any data outside your local device.</li>
+        <li>The extension does not use analytics, tracking, or advertising services.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li>
+      <strong>activeTab, scripting, tabs, host_permissions:</strong> These permissions are required to allow the extension to interact with Salesforce pages, inject the floating panel, and automate updates. The extension only accesses the pages you are actively using it on.
+    </li>
+    <li>
+      <strong>storage:</strong> Used exclusively to save your data locally in your browser.
+    </li>
+  </ul>
+
+  <h2>Data Security</h2>
+  <ul>
+    <li>All data is stored using Chrome’s local storage, which is only accessible to the extension and the user.</li>
+    <li>No data is accessible to the extension developer or any third party.</li>
+  </ul>
+
+  <h2>User Control</h2>
+  <ul>
+    <li>You may clear all stored data at any time using the “Clear CSV” button in the extension panel.</li>
+    <li>Uninstalling the extension will remove all locally stored data associated with Alumni Mark.</li>
+  </ul>
+
+  <h2>Children’s Privacy</h2>
+  <ul>
+    <li>Alumni Mark is not intended for use by children under the age of 16 and does not knowingly collect any personal information from children.</li>
+  </ul>
+
+  <h2>Changes to This Policy</h2>
+  <ul>
+    <li>Any changes to this privacy policy will be reflected in the extension’s documentation and update notes.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    If you have any questions or concerns about this privacy policy or the extension’s data practices, please contact the developer at
+    <a href="mailto:ben.sod0@gmail.com">ben.sod0@gmail.com</a>.
+  </p>
+</body>
+</html>
